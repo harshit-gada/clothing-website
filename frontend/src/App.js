@@ -6,6 +6,7 @@ import './index.css';
 import './input.css';
 import { ProductApi } from './api/ProductApi'
 import { DataProvider } from './GlobalState'
+import Footer from './components/footer/Footer'
 const App = () => {
   return (
     <DataProvider>
@@ -13,6 +14,7 @@ const App = () => {
       <div className='App'>
         <Header/>
         <Pages/>
+        <Footer/>
       </div>
     </Router>
     </DataProvider>
